@@ -14,6 +14,9 @@ const Layout: React.FunctionComponent<ILayoutProps> = (props) => {
           <li>
             <Link to="/typingprops">Typing Props</Link>
           </li>
+          <li>
+            <Link to="/people">People</Link>
+          </li>
         </ul>
       </nav>
 
