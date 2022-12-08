@@ -2,8 +2,8 @@ import GreetProps from '../components/GreetProps'
 
 const TypingProps = () => {
   return (
-    <div>
-      <GreetProps name="First Name"  lastName="Last Name" />
+    <div style={{display:'flex', flexDirection:'column', alignItems:'center'}}>
+      <GreetProps name="Bill"  lastName="Doe" age={29} isLoggedIn={true} />
     </div>
   )
 }
