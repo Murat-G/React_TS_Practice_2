@@ -1,6 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
 
-
 export interface ILayoutProps {}
 
 const Layout: React.FunctionComponent<ILayoutProps> = (props) => {
@@ -17,12 +16,15 @@ const Layout: React.FunctionComponent<ILayoutProps> = (props) => {
           <li>
             <Link to="/people">People</Link>
           </li>
+          <li>
+            <Link to="/search">Search</Link>
+          </li>
         </ul>
       </nav>
 
       <Outlet />
     </>
-  )
+  );
 };
 
 export default Layout;

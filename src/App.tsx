@@ -3,6 +3,8 @@ import Home from "./pages/Home";
 import Layout from "./pages/Layout";
 import TypingProps from "./pages/TypingProps";
 import Person from "./pages/Person";
+import Search from "./pages/Search";
+
 import "./App.css";
 
 export interface IAppProps {}
@@ -15,6 +17,7 @@ const App: React.FunctionComponent<IAppProps> = (props) => {
           <Route path="/" element={<Home />} />
           <Route path="/typingprops" element={<TypingProps />} />
           <Route path="/people" element={<Person />} />
+          <Route path="/search" element={<Search />} />
         </Route>
       </Routes>
     </BrowserRouter>
