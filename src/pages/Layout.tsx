@@ -19,6 +19,9 @@ const Layout: React.FunctionComponent<ILayoutProps> = (props) => {
           <li>
             <Link to="/search">Search</Link>
           </li>
+          <li>
+            <Link to="/context">Context</Link>
+          </li>
         </ul>
       </nav>
 
