@@ -7,9 +7,12 @@ const PersonList = (props: PersonsListProps) => {
     <div>
       <h5>
         {props.names.map((name, i) => {
-          return(
-            <h5 key={i}> {name.first} {name.last} </h5>
-          )
+          return (
+            <p key={i}>
+              {" "}
+              {name.first} {name.last}{" "}
+            </p>
+          );
         })}
       </h5>
     </div>

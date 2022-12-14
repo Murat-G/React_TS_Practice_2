@@ -5,6 +5,8 @@ type ButtonProps = {
 
 export const Button = (props: ButtonProps) => {
   return (
-    <button onClick={(event) => props.handleClick(event)} style={props.styles}>Add New Issue</button>
+    <button onClick={(event) => props.handleClick(event)} style={props.styles}>
+      Add New Issue
+    </button>
   );
 };

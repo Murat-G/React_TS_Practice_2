@@ -1,11 +1,9 @@
 type IWelcomeProps = {
-    children: string
-}
+  children: string;
+};
 
-const Welcome = (props : IWelcomeProps) => {
-  return (
-    <div>{props.children}</div>
-  )
-}
+const Welcome = (props: IWelcomeProps) => {
+  return <div>{props.children}</div>;
+};
 
-export default Welcome
+export default Welcome;

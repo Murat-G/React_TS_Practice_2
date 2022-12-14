@@ -10,7 +10,9 @@ const GreetProps = (props: IGreetProps) => {
     <div>
       {props.isLoggedIn ? (
         <div>
-           <h5>Welcome {props.name} {props.lastName}</h5>
+          <h5>
+            Welcome {props.name} {props.lastName}
+          </h5>
         </div>
       ) : (
         <div>
